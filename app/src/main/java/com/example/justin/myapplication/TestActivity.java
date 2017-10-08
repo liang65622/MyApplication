@@ -1,5 +1,7 @@
 package com.example.justin.myapplication;
 
+import android.content.res.Resources;
+import android.support.annotation.StyleRes;
 import android.support.v7.app.AppCompatActivity;
 
 /**
@@ -7,4 +9,8 @@ import android.support.v7.app.AppCompatActivity;
  */
 
 public class TestActivity extends AppCompatActivity {
+    @Override
+    protected void onApplyThemeResource(Resources.Theme theme, @StyleRes int resid, boolean first) {
+        super.onApplyThemeResource(theme, resid, first);
+    }
 }
