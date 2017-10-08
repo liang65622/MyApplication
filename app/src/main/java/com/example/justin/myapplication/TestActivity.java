@@ -12,5 +12,7 @@ public class TestActivity extends AppCompatActivity {
     @Override
     protected void onApplyThemeResource(Resources.Theme theme, @StyleRes int resid, boolean first) {
         super.onApplyThemeResource(theme, resid, first);
+        int a =3; 
+        int b=4;
     }
 }
